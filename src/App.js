@@ -42,7 +42,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard/>} />
           <Route path="/materi" element={<Book/>} />
           <Route path="/simulasi" element={<Phet/>} />
-          <Route path="/tanya" element={<Teman/>} />
+          <Route path="/teman" element={<Teman/>} />
           <Route path="/termo0" element={<Termo0/>} />
           <Route path="/termo1" element={<Termo1/>} />
           <Route path="/termo2" element={<Termo2/>} />
