@@ -49,7 +49,7 @@ function Dashboard() {
   ];
   return (
     <div align="center">
-      <h2>Module</h2>
+      <h3 style={{color:'black'}}>Module</h3>
       <div className="banner" style={{ backgroundColor: "#3B31F1" }}>
         <div className="demo-swiper">
           <Swiper>
@@ -102,7 +102,7 @@ function Dashboard() {
       </div>
       <div className="menu">
 
-        <h2>Menu</h2>
+        <h3 style={{color:'black'}}>Menu</h3>
         <Grid
           border={true}
           square={false}

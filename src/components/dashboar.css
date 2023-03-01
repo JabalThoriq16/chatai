@@ -7,6 +7,8 @@ demo-swiper .rv-swiper__slide .rv-swiper-item {
   align-items: center;
   justify-content: center;
   }
+
+  
   
   .demo-swiper .rv-swiper__slide:nth-child(odd) .rv-swiper-item {
   background-color: #3f45ff;
