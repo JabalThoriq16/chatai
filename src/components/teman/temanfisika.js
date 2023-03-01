@@ -28,7 +28,8 @@ function Chat() {
 
   // Set up OpenAI API key
   const configuration = new Configuration({
-    apiKey: "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",
+    // organization: "org-VDCuduHFopkPSXUBo6MHzU3a",
+    apiKey: "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",
   });
 
   const openai = new OpenAIApi(configuration);
