@@ -50,7 +50,7 @@ function Dashboard() {
   return (
     <div align="center">
       <h3 style={{color:'black'}}>Module</h3>
-      <div className="banner" style={{ backgroundColor: "#3B31F1" }}>
+      <div className="banner" >
         <div className="demo-swiper">
           <Swiper>
             {Modules.map((module, index) => (
