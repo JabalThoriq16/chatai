@@ -6,42 +6,42 @@ function Dashboard() {
   const Modules = [
     {
       title: "Logika dan Penalaran",
-      page:"LP",
+      page:"/latihan2",
       materi:
         "Materi ini melatih kemampuan berpikir deduktif dan induktif. Siswa diajarkan untuk dapat menyelesaikan masalah secara sistematis dan kritis.",
       link: "https://i.pinimg.com/originals/48/cd/a4/48cda4b905220c9d6af458470b2d894d.jpg",
     },
     {
       title: "Pemecahan Masalah",
-      page:"PM",
+      page:"latihan1",
       materi:
         "Materi ini melatih kemampuan siswa dalam menyelesaikan masalah dengan cara-cara yang kreatif dan inovatif. Siswa diajarkan untuk mengidentifikasi masalah, mengumpulkan informasi, dan merancang solusi yang efektif.",
       link: "https://i.pinimg.com/originals/48/cd/a4/48cda4b905220c9d6af458470b2d894d.jpg",
     },
     {
-      title: "Analisis dan Evaluasi",
-      page:"AE",
+      title: "Analisis",
+      page:"latihan6",
       materi:
         "Materi ini melatih kemampuan siswa dalam menganalisis dan mengevaluasi informasi dengan cara kritis dan objektif. Siswa diajarkan untuk mengidentifikasi argumen yang kuat dan lemah, mengenali bias, dan mempertimbangkan berbagai perspektif.",
       link: "https://i.pinimg.com/originals/48/cd/a4/48cda4b905220c9d6af458470b2d894d.jpg",
     },
     {
       title: "Kreativitas",
-      page:"KR",
+      page:"latihan3",
       materi:
         "Materi ini melatih kemampuan siswa untuk berpikir kreatif dan inovatif dalam menemukan solusi dan ide-ide baru. Siswa diajarkan untuk berpikir di luar kotak, menggunakan imajinasi dan mengembangkan ide yang unik.",
       link: "https://i.pinimg.com/originals/48/cd/a4/48cda4b905220c9d6af458470b2d894d.jpg",
     },
     {
       title: "Komunikasi",
-      page:"KM",
+      page:"latihan4",
       materi:
         "Materi ini melatih kemampuan siswa dalam menyampaikan ide-ide dan gagasan secara efektif dan persuasif. Siswa diajarkan untuk berbicara dan menulis dengan jelas, dan menggunakan argumen yang kuat dan logis.",
       link: "https://i.pinimg.com/originals/48/cd/a4/48cda4b905220c9d6af458470b2d894d.jpg",
     },
     {
       title: "Pemodelan Matematika",
-      page:"PM",
+      page:"latihan5",
       materi:
         "Materi ini melatih kemampuan siswa dalam memodelkan masalah matematika dengan berbagai macam metode dan teknik. Siswa diajarkan untuk mengidentifikasi pola, membuat prediksi, dan merancang strategi penyelesaian masalah.",
       link: "https://i.pinimg.com/originals/48/cd/a4/48cda4b905220c9d6af458470b2d894d.jpg",
@@ -111,7 +111,7 @@ function Dashboard() {
           style={{ marginLeft: "3%", marginRight: "5%" }}
         >
           <Grid.Item onClick={() => window.location.href = "/materi"} icon={<Description />} text='Materi' />
-          <Grid.Item onClick={() => window.location.href = "/module"} icon={<Description />} text='Module' />
+          <Grid.Item onClick={() => window.location.href = "/module"} icon={<Description />} text='Latihan' />
           <Grid.Item onClick={() => window.location.href = "/soal"} icon={<Records />} text='Soal' />
           <Grid.Item onClick={() => window.location.href = "/simulasi"} icon={<VideoO />} text='Simulasi' />
           <Grid.Item onClick={() => window.location.href = "/teman"} icon={<FriendsO />} text='Teman Fisika' />

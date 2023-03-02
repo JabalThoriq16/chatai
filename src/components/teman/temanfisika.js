@@ -25,11 +25,12 @@ function Chat() {
   const [input, setInput] = useState('');
   const [output, setOutput] = useState('');
   const [chatHistory, setChatHistory] = useState([]);
+  console.log(process.env.REACT_APP_API_KEY)
 
   // Set up OpenAI API key
   const configuration = new Configuration({
     // organization: "org-VDCuduHFopkPSXUBo6MHzU3a",
-    apiKey: "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",
+    apiKey: process.env.REACT_APP_OPENAI_API_KEY,
   });
 
   const openai = new OpenAIApi(configuration);
@@ -63,7 +64,7 @@ function Chat() {
       <div className="chat-body">
         {chatHistory.map((chat, index) => (
           <div key={index} className={`chat-message chat-message-${chat.sender}`}>
-            <p>{chat.message}</p>
+            <p style={{fontSize:"16px"}}>{chat.message}</p>
           </div>
         ))}
       </div>

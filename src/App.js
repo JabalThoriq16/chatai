@@ -1,10 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import About from './components/about/about';
 import Dashboard from './components/Dashboard';
 import Book from './components/materi/materi';
+import Pendahuluan from './components/materi/pendahuluan';
+import MTermo0 from './components/materi/termo0';
+import MTermo1 from './components/materi/termo1';
+import MTermo2 from './components/materi/termo2';
+import MEntropi from './components/materi/entropi';
 import Teman from './components/teman/temanfisika';
 import Phet from './components/simulasi/simulasi';
 import Pgas from './components/simulasi/pgas';
@@ -18,6 +24,13 @@ import Termo1 from './components/soal/termo1';
 import Termo2 from './components/soal/termo2';
 import Carnot from './components/soal/carnot';
 import Soal from './components/soal/soal';
+import Module from './components/module/module';
+import Pm from './components/module/pm';
+import Analisis from './components/module/analisis';
+import Komunikasi from './components/module/komunikasi';
+import Kreativitas from './components/module/kreatif';
+import Logic from './components/module/logic';
+import Matematik from './components/module/matematik';
 
 function App() {
   
@@ -41,6 +54,19 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/dashboard" element={<Dashboard/>} />
           <Route path="/materi" element={<Book/>} />
+          <Route path="/pendahuluan" element={<Pendahuluan/>} />
+          <Route path="/mtermo0" element={<MTermo0/>} />
+          <Route path="/mtermo1" element={<MTermo1/>} />
+          <Route path="/mtermo2" element={<MTermo2/>} />
+          <Route path="/mentropi" element={<MEntropi/>} />
+          <Route path="/module" element={<Module/>} />         
+          <Route path="/info" element={<About/>} />         
+          <Route path="/latihan1" element={<Pm/>} />
+          <Route path="/latihan6" element={<Analisis/>} />
+          <Route path="/latihan4" element={<Komunikasi/>} />
+          <Route path="/latihan3" element={<Kreativitas/>} />
+          <Route path="/latihan2" element={<Logic/>} />
+          <Route path="/latihan5" element={<Matematik/>} />
           <Route path="/simulasi" element={<Phet/>} />
           <Route path="/teman" element={<Teman/>} />
           <Route path="/termo0" element={<Termo0/>} />
